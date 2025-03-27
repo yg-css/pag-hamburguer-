@@ -21,3 +21,57 @@ header video{
     object-fit: cover;
 
 }
+
+#head{
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    padding: 8px 0;
+}
+
+#nome{
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+}
+
+#caixa{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 2px solid #3d6538;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: #151515 0px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+#container{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid #969696;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#imagem{
+    width: 295px;
+    max-width: 295px;
+    height: 275px;
+    
+}

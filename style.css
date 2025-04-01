@@ -75,3 +75,39 @@ header video{
     height: 275px;
     
 }
+
+#card-descricao{
+    font-size: 22px;
+    margin:18px 0;
+    width: 252px;
+    height: auto;
+    border: #880d0d solid 2px;
+}
+
+#descricao-lanche{
+    color: #666;
+    width: 100%;
+    height: auto;
+    background-color: #fdeb23;
+}
+
+#botao{
+    width: 182px;
+    height: 47px;
+    background-color: red;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: white;
+    border:black solid 2px;
+    font-weight: bold;
+}
+
+#botao:hover{
+    background-color: rgb(41, 72, 195);
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 2px;
+
+
+}
